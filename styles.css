@@ -253,7 +253,7 @@ cite { font-style: normal; font-size: 14px; color: var(--ink-soft); }
 /* mobile */
 .mobile { display: grid; grid-template-columns: 1fr 1fr; background: var(--surface); }
 .mobile-photo { position: relative; overflow: hidden; min-height: 620px; }
-.mobile-photo img { position: absolute; inset: -8% 0; width: 100%; height: 116%; object-fit: cover; object-position: 30% 55%;
+.mobile-photo img { position: absolute; inset: -8% 0; width: 100%; height: 116%; object-fit: cover; object-position: 50% 45%;
   transform: translate3d(0, calc(var(--mp, 0) * 8%), 0); }
 .mobile-copy { padding: clamp(56px, 8vw, 120px) var(--gutter); align-self: center; max-width: 620px; }
 .mobile-copy h2 { margin-bottom: 24px; }
@@ -378,7 +378,7 @@ cite { font-style: normal; font-size: 14px; color: var(--ink-soft); }
 
 @media (max-width: 760px) {
   body { font-size: 16.5px; }
-  .hero-plate img { object-position: 52% 40%; }
+  .hero-plate img { object-position: 46% 50%; }
   .h1-top { font-size: 19vw; }
   .h1-bot { font-size: 6.4vw; }
   .hero-actions .btn { width: min(320px, 100%); }
